@@ -1,0 +1,94 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "C/C++: g++.exe build active file",
+            "command": "C:\\msys64\\mingw64\\bin\\g++.exe",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "${file}",
+                "-o",
+                "${fileDirname}\\${fileBasenameNoExtension}.exe",
+                "-I", "C:\\msys64\\home\\Lenovo",
+                "-L", "C:\\msys64\\home\\Lenovo\\cryptopp\\lib\\cryptopp\\gcc",
+                "-l:libcryptopp.a"
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build"
+            },
+            "detail": "compiler: C:\\msys64\\mingw64\\bin\\g++.exe"
+        },
+        {
+            "type": "cppbuild",
+            "label": "Build: aescli.exe",
+            "command": "C:\\msys64\\mingw64\\bin\\g++.exe",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-std=c++17",
+                "-O2",
+                "-g",
+                "${fileDirname}\\aescli.cpp",
+                "-o",
+                "${fileDirname}\\aescli.exe",
+                "-I", "C:\\msys64\\home\\Lenovo",
+                "-L", "C:\\msys64\\home\\Lenovo\\cryptopp\\lib\\cryptopp\\gcc",
+                "-l:libcryptopp.a",
+                "-lstdc++fs"
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": "build",
+            "detail": "Build aescli.cpp → aescli.exe (C++17 + Crypto++)"
+        },
+        {
+            "type": "cppbuild",
+            "label": "Build: bench.exe",
+            "command": "C:\\msys64\\mingw64\\bin\\g++.exe",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-std=c++17",
+                "-O3",
+                "-march=native",
+                "-g",
+                "${fileDirname}\\bench.cpp",
+                "-o",
+                "${fileDirname}\\bench.exe",
+                "-I", "C:\\msys64\\home\\Lenovo",
+                "-L", "C:\\msys64\\home\\Lenovo\\cryptopp\\lib\\cryptopp\\gcc",
+                "-l:libcryptopp.a",
+                "-lstdc++fs"
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": "build",
+            "detail": "Build bench.cpp → bench.exe (C++17 + O3 + Crypto++)"
+        },
+        {
+            "label": "Build: aescli + bench (all)",
+            "dependsOrder": "sequence",
+            "dependsOn": [
+                "Build: aescli.exe",
+                "Build: bench.exe"
+            ],
+            "group": "build",
+            "problemMatcher": [],
+            "detail": "Build cả aescli.exe và bench.exe tuần tự"
+        }
+    ]
+}

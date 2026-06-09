@@ -1,0 +1,86 @@
+[
+  {
+    "id"   : "CBC-AES128-NIST-1",
+    "mode" : "cbc",
+    "key"  : "2b7e151628aed2a6abf7158809cf4f3c",
+    "iv"   : "000102030405060708090a0b0c0d0e0f",
+    "pt"   : "6bc1bee22e409f96e93d7e117393172a",
+    "ct"   : "7649abac8119b246cee98e9b12e9197d"
+  },
+  {
+    "id"   : "CBC-AES128-NIST-2",
+    "mode" : "cbc",
+    "key"  : "2b7e151628aed2a6abf7158809cf4f3c",
+    "iv"   : "7649abac8119b246cee98e9b12e9197d",
+    "pt"   : "ae2d8a571e03ac9c9eb76fac45af8e51",
+    "ct"   : "5086cb9b507219ee95db113a917678b2"
+  },
+  {
+    "id"   : "CFB-AES128-NIST-1",
+    "mode" : "cfb",
+    "key"  : "2b7e151628aed2a6abf7158809cf4f3c",
+    "iv"   : "000102030405060708090a0b0c0d0e0f",
+    "pt"   : "6bc1bee22e409f96e93d7e117393172a",
+    "ct"   : "3b3fd92eb72dad20333449f8e83cfb4a"
+  },
+  {
+    "id"   : "OFB-AES128-NIST-1",
+    "mode" : "ofb",
+    "key"  : "2b7e151628aed2a6abf7158809cf4f3c",
+    "iv"   : "000102030405060708090a0b0c0d0e0f",
+    "pt"   : "6bc1bee22e409f96e93d7e117393172a",
+    "ct"   : "3b3fd92eb72dad20333449f8e83cfb4a"
+  },
+  {
+    "id"   : "CTR-AES128-NIST-1",
+    "mode" : "ctr",
+    "key"  : "2b7e151628aed2a6abf7158809cf4f3c",
+    "iv"   : "f0f1f2f3f4f5f6f7f8f9fafbfcfdfeff",
+    "pt"   : "6bc1bee22e409f96e93d7e117393172a",
+    "ct"   : "874d6191b620e3261bef6864990db6ce"
+  },
+  {
+    "id"   : "CTR-AES128-NIST-2",
+    "mode" : "ctr",
+    "key"  : "2b7e151628aed2a6abf7158809cf4f3c",
+    "iv"   : "f0f1f2f3f4f5f6f7f8f9fafbfcfdff00",
+    "pt"   : "ae2d8a571e03ac9c9eb76fac45af8e51",
+    "ct"   : "9806f66b7970fdff8617187bb9fffdff"
+  },
+  {
+  "id": "GCM-AES128-ZERO-PT16-AAD0",
+  "mode": "gcm",
+  "key": "00000000000000000000000000000000",
+  "iv": "000000000000000000000000",
+  "aad": "",
+  "pt": "00000000000000000000000000000000",
+  "ct": "0388dace60b6a392f328c2b971b2fe78ab6e47d42cec13bdf53a67b21257bddf"
+  },
+  {
+  "id": "GCM-AES128-ZERO-PT16-AAD16",
+  "mode": "gcm",
+  "key": "00000000000000000000000000000000",
+  "iv": "000000000000000000000000",
+  "aad": "00000000000000000000000000000000",
+  "pt": "00000000000000000000000000000000",
+  "ct": "0388dace60b6a392f328c2b971b2fe78d24e503a1bb037071c71b35d987b8657"
+  },
+  {
+  "id": "CCM-AES128-ZERO-PT16-AAD0-N7-T16",
+  "mode": "ccm",
+  "key": "00000000000000000000000000000000",
+  "iv": "00010203040506",
+  "aad": "",
+  "pt": "00000000000000000000000000000000",
+  "ct": "7cfd59d91845828f76e60775fafd0194caa8bbc5670ee7a476e12aac9dcea402"
+  },
+  {
+  "id": "CCM-AES128-ZERO-PT16-AAD16-N7-T16",
+  "mode": "ccm",
+  "key": "00000000000000000000000000000000",
+  "iv": "00010203040506",
+  "aad": "00000000000000000000000000000000",
+  "pt": "00000000000000000000000000000000",
+  "ct": "7cfd59d91845828f76e60775fafd0194696e05dd90681a070fc82461e99ddfd0"
+  }
+]
