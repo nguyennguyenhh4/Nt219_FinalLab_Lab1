@@ -1,0 +1,273 @@
+Start testing: Jun 10 09:46 SE Asia Standard Time
+----------------------------------------------------------
+1/10 Testing: AesNegativeTest.CBC_WrongKey
+1/10 Test: AesNegativeTest.CBC_WrongKey
+Command: "C:/FinalLab/MSV.All6labs/lab1/build/Release/unit_tests.exe" "--gtest_filter=AesNegativeTest.CBC_WrongKey" "--gtest_also_run_disabled_tests"
+Directory: C:/FinalLab/MSV.All6labs/lab1/build
+"AesNegativeTest.CBC_WrongKey" start time: Jun 10 09:46 SE Asia Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:\FinalLab\MSV.All6labs\lab1\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = AesNegativeTest.CBC_WrongKey
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AesNegativeTest
+[ RUN      ] AesNegativeTest.CBC_WrongKey
+[       OK ] AesNegativeTest.CBC_WrongKey (2 ms)
+[----------] 1 test from AesNegativeTest (2 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (2 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"AesNegativeTest.CBC_WrongKey" end time: Jun 10 09:46 SE Asia Standard Time
+"AesNegativeTest.CBC_WrongKey" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/10 Testing: AesNegativeTest.CBC_WrongIV
+2/10 Test: AesNegativeTest.CBC_WrongIV
+Command: "C:/FinalLab/MSV.All6labs/lab1/build/Release/unit_tests.exe" "--gtest_filter=AesNegativeTest.CBC_WrongIV" "--gtest_also_run_disabled_tests"
+Directory: C:/FinalLab/MSV.All6labs/lab1/build
+"AesNegativeTest.CBC_WrongIV" start time: Jun 10 09:46 SE Asia Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:\FinalLab\MSV.All6labs\lab1\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = AesNegativeTest.CBC_WrongIV
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AesNegativeTest
+[ RUN      ] AesNegativeTest.CBC_WrongIV
+[       OK ] AesNegativeTest.CBC_WrongIV (0 ms)
+[----------] 1 test from AesNegativeTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"AesNegativeTest.CBC_WrongIV" end time: Jun 10 09:46 SE Asia Standard Time
+"AesNegativeTest.CBC_WrongIV" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/10 Testing: AesNegativeTest.CBC_TamperedCiphertext
+3/10 Test: AesNegativeTest.CBC_TamperedCiphertext
+Command: "C:/FinalLab/MSV.All6labs/lab1/build/Release/unit_tests.exe" "--gtest_filter=AesNegativeTest.CBC_TamperedCiphertext" "--gtest_also_run_disabled_tests"
+Directory: C:/FinalLab/MSV.All6labs/lab1/build
+"AesNegativeTest.CBC_TamperedCiphertext" start time: Jun 10 09:46 SE Asia Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:\FinalLab\MSV.All6labs\lab1\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = AesNegativeTest.CBC_TamperedCiphertext
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AesNegativeTest
+[ RUN      ] AesNegativeTest.CBC_TamperedCiphertext
+[       OK ] AesNegativeTest.CBC_TamperedCiphertext (0 ms)
+[----------] 1 test from AesNegativeTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"AesNegativeTest.CBC_TamperedCiphertext" end time: Jun 10 09:46 SE Asia Standard Time
+"AesNegativeTest.CBC_TamperedCiphertext" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/10 Testing: AesNegativeTest.CTR_WrongKey
+4/10 Test: AesNegativeTest.CTR_WrongKey
+Command: "C:/FinalLab/MSV.All6labs/lab1/build/Release/unit_tests.exe" "--gtest_filter=AesNegativeTest.CTR_WrongKey" "--gtest_also_run_disabled_tests"
+Directory: C:/FinalLab/MSV.All6labs/lab1/build
+"AesNegativeTest.CTR_WrongKey" start time: Jun 10 09:46 SE Asia Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:\FinalLab\MSV.All6labs\lab1\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = AesNegativeTest.CTR_WrongKey
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AesNegativeTest
+[ RUN      ] AesNegativeTest.CTR_WrongKey
+[       OK ] AesNegativeTest.CTR_WrongKey (1 ms)
+[----------] 1 test from AesNegativeTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"AesNegativeTest.CTR_WrongKey" end time: Jun 10 09:46 SE Asia Standard Time
+"AesNegativeTest.CTR_WrongKey" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/10 Testing: AesNegativeTest.GCM_WrongKey_Throws
+5/10 Test: AesNegativeTest.GCM_WrongKey_Throws
+Command: "C:/FinalLab/MSV.All6labs/lab1/build/Release/unit_tests.exe" "--gtest_filter=AesNegativeTest.GCM_WrongKey_Throws" "--gtest_also_run_disabled_tests"
+Directory: C:/FinalLab/MSV.All6labs/lab1/build
+"AesNegativeTest.GCM_WrongKey_Throws" start time: Jun 10 09:46 SE Asia Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:\FinalLab\MSV.All6labs\lab1\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = AesNegativeTest.GCM_WrongKey_Throws
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AesNegativeTest
+[ RUN      ] AesNegativeTest.GCM_WrongKey_Throws
+[       OK ] AesNegativeTest.GCM_WrongKey_Throws (0 ms)
+[----------] 1 test from AesNegativeTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"AesNegativeTest.GCM_WrongKey_Throws" end time: Jun 10 09:46 SE Asia Standard Time
+"AesNegativeTest.GCM_WrongKey_Throws" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/10 Testing: AesNegativeTest.GCM_WrongIV_Throws
+6/10 Test: AesNegativeTest.GCM_WrongIV_Throws
+Command: "C:/FinalLab/MSV.All6labs/lab1/build/Release/unit_tests.exe" "--gtest_filter=AesNegativeTest.GCM_WrongIV_Throws" "--gtest_also_run_disabled_tests"
+Directory: C:/FinalLab/MSV.All6labs/lab1/build
+"AesNegativeTest.GCM_WrongIV_Throws" start time: Jun 10 09:46 SE Asia Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:\FinalLab\MSV.All6labs\lab1\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = AesNegativeTest.GCM_WrongIV_Throws
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AesNegativeTest
+[ RUN      ] AesNegativeTest.GCM_WrongIV_Throws
+[       OK ] AesNegativeTest.GCM_WrongIV_Throws (0 ms)
+[----------] 1 test from AesNegativeTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"AesNegativeTest.GCM_WrongIV_Throws" end time: Jun 10 09:46 SE Asia Standard Time
+"AesNegativeTest.GCM_WrongIV_Throws" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/10 Testing: AesNegativeTest.GCM_TamperedCT_Throws
+7/10 Test: AesNegativeTest.GCM_TamperedCT_Throws
+Command: "C:/FinalLab/MSV.All6labs/lab1/build/Release/unit_tests.exe" "--gtest_filter=AesNegativeTest.GCM_TamperedCT_Throws" "--gtest_also_run_disabled_tests"
+Directory: C:/FinalLab/MSV.All6labs/lab1/build
+"AesNegativeTest.GCM_TamperedCT_Throws" start time: Jun 10 09:46 SE Asia Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:\FinalLab\MSV.All6labs\lab1\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = AesNegativeTest.GCM_TamperedCT_Throws
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AesNegativeTest
+[ RUN      ] AesNegativeTest.GCM_TamperedCT_Throws
+[       OK ] AesNegativeTest.GCM_TamperedCT_Throws (0 ms)
+[----------] 1 test from AesNegativeTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"AesNegativeTest.GCM_TamperedCT_Throws" end time: Jun 10 09:46 SE Asia Standard Time
+"AesNegativeTest.GCM_TamperedCT_Throws" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/10 Testing: AesNegativeTest.GCM_TamperedTag_Throws
+8/10 Test: AesNegativeTest.GCM_TamperedTag_Throws
+Command: "C:/FinalLab/MSV.All6labs/lab1/build/Release/unit_tests.exe" "--gtest_filter=AesNegativeTest.GCM_TamperedTag_Throws" "--gtest_also_run_disabled_tests"
+Directory: C:/FinalLab/MSV.All6labs/lab1/build
+"AesNegativeTest.GCM_TamperedTag_Throws" start time: Jun 10 09:46 SE Asia Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:\FinalLab\MSV.All6labs\lab1\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = AesNegativeTest.GCM_TamperedTag_Throws
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AesNegativeTest
+[ RUN      ] AesNegativeTest.GCM_TamperedTag_Throws
+[       OK ] AesNegativeTest.GCM_TamperedTag_Throws (0 ms)
+[----------] 1 test from AesNegativeTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"AesNegativeTest.GCM_TamperedTag_Throws" end time: Jun 10 09:46 SE Asia Standard Time
+"AesNegativeTest.GCM_TamperedTag_Throws" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/10 Testing: AesNegativeTest.CCM_TamperedCT_Throws
+9/10 Test: AesNegativeTest.CCM_TamperedCT_Throws
+Command: "C:/FinalLab/MSV.All6labs/lab1/build/Release/unit_tests.exe" "--gtest_filter=AesNegativeTest.CCM_TamperedCT_Throws" "--gtest_also_run_disabled_tests"
+Directory: C:/FinalLab/MSV.All6labs/lab1/build
+"AesNegativeTest.CCM_TamperedCT_Throws" start time: Jun 10 09:46 SE Asia Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:\FinalLab\MSV.All6labs\lab1\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = AesNegativeTest.CCM_TamperedCT_Throws
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AesNegativeTest
+[ RUN      ] AesNegativeTest.CCM_TamperedCT_Throws
+[       OK ] AesNegativeTest.CCM_TamperedCT_Throws (0 ms)
+[----------] 1 test from AesNegativeTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"AesNegativeTest.CCM_TamperedCT_Throws" end time: Jun 10 09:46 SE Asia Standard Time
+"AesNegativeTest.CCM_TamperedCT_Throws" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/10 Testing: AesNegativeTest.InvalidKeyLength_Throws
+10/10 Test: AesNegativeTest.InvalidKeyLength_Throws
+Command: "C:/FinalLab/MSV.All6labs/lab1/build/Release/unit_tests.exe" "--gtest_filter=AesNegativeTest.InvalidKeyLength_Throws" "--gtest_also_run_disabled_tests"
+Directory: C:/FinalLab/MSV.All6labs/lab1/build
+"AesNegativeTest.InvalidKeyLength_Throws" start time: Jun 10 09:46 SE Asia Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:\FinalLab\MSV.All6labs\lab1\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = AesNegativeTest.InvalidKeyLength_Throws
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AesNegativeTest
+[ RUN      ] AesNegativeTest.InvalidKeyLength_Throws
+[       OK ] AesNegativeTest.InvalidKeyLength_Throws (0 ms)
+[----------] 1 test from AesNegativeTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"AesNegativeTest.InvalidKeyLength_Throws" end time: Jun 10 09:46 SE Asia Standard Time
+"AesNegativeTest.InvalidKeyLength_Throws" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jun 10 09:46 SE Asia Standard Time

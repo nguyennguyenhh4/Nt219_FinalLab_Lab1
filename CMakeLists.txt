@@ -63,6 +63,32 @@ else()
   target_compile_options(bench PRIVATE -Wall -O3 -march=native)
 endif()
 
+# ─── Testing (GoogleTest & CTest) ──────────────────────────────
+enable_testing()
+
+find_package(GTest CONFIG QUIET)
+if(NOT GTest_FOUND)
+  include(FetchContent)
+  FetchContent_Declare(
+    googletest
+    URL https://github.com/google/googletest/archive/refs/tags/v1.14.0.zip
+  )
+  set(INSTALL_GTEST OFF CACHE BOOL "" FORCE)
+  FetchContent_MakeAvailable(googletest)
+endif()
+
+add_executable(unit_tests tests/test_aes.cpp)
+target_link_libraries(unit_tests PRIVATE GTest::gtest_main cryptopp::cryptopp)
+
+if(MSVC)
+  target_compile_options(unit_tests PRIVATE /W3 /O2)
+else()
+  target_compile_options(unit_tests PRIVATE -Wall -O2)
+endif()
+
+include(GoogleTest)
+gtest_discover_tests(unit_tests)
+
 # ─── Install ───────────────────────────────────────────────────
 install(TARGETS aescli bench DESTINATION bin)
 

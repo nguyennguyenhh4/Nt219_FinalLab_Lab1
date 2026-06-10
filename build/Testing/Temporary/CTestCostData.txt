@@ -1,0 +1,11 @@
+AesNegativeTest.CBC_WrongKey 1 0.0173025
+AesNegativeTest.CBC_WrongIV 1 0.0114589
+AesNegativeTest.CBC_TamperedCiphertext 1 0.0137522
+AesNegativeTest.CTR_WrongKey 1 0.0124531
+AesNegativeTest.GCM_WrongKey_Throws 1 0.0129734
+AesNegativeTest.GCM_WrongIV_Throws 1 0.0139426
+AesNegativeTest.GCM_TamperedCT_Throws 1 0.0156781
+AesNegativeTest.GCM_TamperedTag_Throws 1 0.0139038
+AesNegativeTest.CCM_TamperedCT_Throws 1 0.0128634
+AesNegativeTest.InvalidKeyLength_Throws 1 0.0105585
+---

@@ -1,0 +1,10 @@
+^C:\FINALLAB\MSV.ALL6LABS\LAB1\BUILD\CMAKEFILES\2B9A9EAD24A7952B8141CA7800FA9AD4\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/FinalLab/MSV.All6labs/lab1 -BC:/FinalLab/MSV.All6labs/lab1/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/FinalLab/MSV.All6labs/lab1/build/AES_Lab1.slnx
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

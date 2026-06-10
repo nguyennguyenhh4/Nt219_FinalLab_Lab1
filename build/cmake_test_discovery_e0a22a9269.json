@@ -1,0 +1,62 @@
+{
+  "tests": 10,
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "AesNegativeTest",
+      "tests": 10,
+      "testsuite": [
+        {
+          "name": "CBC_WrongKey",
+          "file": "C:\\FinalLab\\MSV.All6labs\\lab1\\tests\\test_aes.cpp",
+          "line": 109
+        },
+        {
+          "name": "CBC_WrongIV",
+          "file": "C:\\FinalLab\\MSV.All6labs\\lab1\\tests\\test_aes.cpp",
+          "line": 118
+        },
+        {
+          "name": "CBC_TamperedCiphertext",
+          "file": "C:\\FinalLab\\MSV.All6labs\\lab1\\tests\\test_aes.cpp",
+          "line": 127
+        },
+        {
+          "name": "CTR_WrongKey",
+          "file": "C:\\FinalLab\\MSV.All6labs\\lab1\\tests\\test_aes.cpp",
+          "line": 137
+        },
+        {
+          "name": "GCM_WrongKey_Throws",
+          "file": "C:\\FinalLab\\MSV.All6labs\\lab1\\tests\\test_aes.cpp",
+          "line": 146
+        },
+        {
+          "name": "GCM_WrongIV_Throws",
+          "file": "C:\\FinalLab\\MSV.All6labs\\lab1\\tests\\test_aes.cpp",
+          "line": 152
+        },
+        {
+          "name": "GCM_TamperedCT_Throws",
+          "file": "C:\\FinalLab\\MSV.All6labs\\lab1\\tests\\test_aes.cpp",
+          "line": 158
+        },
+        {
+          "name": "GCM_TamperedTag_Throws",
+          "file": "C:\\FinalLab\\MSV.All6labs\\lab1\\tests\\test_aes.cpp",
+          "line": 165
+        },
+        {
+          "name": "CCM_TamperedCT_Throws",
+          "file": "C:\\FinalLab\\MSV.All6labs\\lab1\\tests\\test_aes.cpp",
+          "line": 172
+        },
+        {
+          "name": "InvalidKeyLength_Throws",
+          "file": "C:\\FinalLab\\MSV.All6labs\\lab1\\tests\\test_aes.cpp",
+          "line": 179
+        }
+      ]
+    }
+  ]
+}
